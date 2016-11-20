@@ -1,0 +1,4 @@
+#How to run the file
+#Problem1.cpp
+#g++ Problem1.cpp
+#./a.out
