@@ -3,16 +3,16 @@
 /*Team02: Xinlu Xiao & Zhaoyue Wei*/
 Instruction:
 ===========
-How to run the file
 (1) Problem1.cpp
-    Input command:
+    *Input command:
      g++ Problem1.cpp -lrt
      ./a.out
+     
 (2) Problem2:
-    products.hpp: implementation of Product class, Future class, BondFuture class and EurodollarFuture class
-    productservice.hpp: implementation of the FutureProductService class
-    soa.hpp: implementation of the Service class
-    test.cpp: test the Future class and the FutureProductService class
-    Input command:
+    *products.hpp: implementation of Product class, Future class, BondFuture class and EurodollarFuture class
+    *productservice.hpp: implementation of the FutureProductService class
+    *soa.hpp: implementation of the Service class
+    *test.cpp: test the Future class and the FutureProductService class
+    *Input command:
     g++ test.cpp
     ./a.out
