@@ -1,6 +1,6 @@
 /**
 * tradeFileGenerator.hpp
-*  Generate trade.csv file we would use in the project
+* Generate trade.csv file we would use in the project
 * @Create by Xinlu Xiao
 */
 

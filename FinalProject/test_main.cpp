@@ -9,11 +9,12 @@
 #include <random>
 #include <string>
 #include "tradeFileGenerator.hpp"
+#include "priceFileGenerator.hpp"
 
 using namespace std;
 
 int main()
 {
-   trade_generate();
+   price_generate();
    return 0;
 }
