@@ -1,6 +1,6 @@
 /**
 * tradeFileGenerator.hpp
-* Generate trade.csv file we would use in the project
+* Generate trade.txt file we would use in the project
 * @Create by Xinlu Xiao
 */
 
@@ -26,7 +26,7 @@ string product_type[] = { "912828U40", // 2Y
 void trade_generate()
 {
 	ofstream myfile;
-	myfile.open("trade.csv");
+	myfile.open("trade.txt");
 	myfile << "product, tradeId, book, price, quantity, side" << endl;
 
 	for (int i = 0; i < 6; ++i)

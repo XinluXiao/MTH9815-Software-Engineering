@@ -1,6 +1,6 @@
 /**
  * priceFileGenerator.hpp
- * Generate price.csv we would use in the program
+ * Generate price.txt we would use in the program
  * @ Created by Xinlu Xiao
  */
 
@@ -19,13 +19,13 @@ using namespace std;
 void price_generate()
 {
         ofstream myfile;
-        myfile.open("price.csv");
+        myfile.open("price.txt");
         myfile << "product, mid, bid_offer_spread" << endl;
 	
 	for(int i = 0; i < 6; ++i)
 	{
 	   string product_T = product_type[i];
-	   for(int j = 0; j < 1000000; ++j)
+	   for(int j = 0; j < 10; ++j)  // In the true test, change 10 to 1000000
 	   {
 		int num0 = rand() % 2 + 99; // Generate a number between 99 and 100
                 int num1 = rand() % 32; // Generate a number between 0 and 31
