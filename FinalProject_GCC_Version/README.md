@@ -7,3 +7,5 @@
 #####1. How to run this program?
 ######g++ -std=c++11 main.cpp
 ######./a.out
+
+#####More Information can be found at Bitbucket README: https://bitbucket.org/XinluXiao/mth9815-final-project/overview
